@@ -1,0 +1,92 @@
+#navbarTogglerDemo03
+{
+    justify-content: end;
+}
+.footerclas
+{
+    background-color: #141414
+}
+
+.footerdata
+{
+    background-color: rgba(121, 120, 120, 0.2)
+}
+.navbar_brand 
+{
+    color:#000;
+    text-decoration: none;
+    font-size: 40px;
+    padding: 0 20px;
+}
+.content
+{
+    min-height: calc(100vh - 70px - 64px);   
+}
+.navbar_bg
+{
+    background-color:rgba(121, 120, 120, 0.2)
+}
+.movies
+{   
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 1rem;
+   
+}
+.movies img
+{
+    width: 100%;
+    height: 320px;
+}
+.Loader
+{
+    display: flex; 
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.search
+{
+    display: flex;
+}
+
+.button
+{   
+    justify-content: center;
+    text-align: center;
+    margin-left: 1rem;
+}
+
+.button, i
+{
+    width: 100px;
+}
+
+.iputbutton
+{
+    padding: 20px;
+}
+
+.futerbg
+{ 
+ background-color :  rgba(0, 0, 0, 0.2);
+}
+.card_content
+{
+    text-align: center;
+}
+
+.card_content span
+{
+    font-size:large;
+}
+.iputbutton label:not(:last-child)
+{
+    margin-right: 3px;
+}
+
+.error
+{
+    display: flex;
+    justify-content: center;
+}
